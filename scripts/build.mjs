@@ -212,12 +212,13 @@ ${rows}`;
 }
 
 function footer(t) {
-  const H = 150;
+  const H = 165;
   const body = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.line}"/>
-<text x="${W / 2}" y="52" class="s ink" font-size="20" font-weight="700" text-anchor="middle">반복되는 업무가 있다면 알려주세요.</text>
-<text x="${W / 2}" y="80" class="m ac" font-size="14" text-anchor="middle">${esc(DATA.email)}<tspan class="blink">_</tspan></text>
-${ecg(40, W - 40, 118, t, { period: 380, amp: 0.6 })}`;
-  return svg(W, H, `반복되는 업무가 있다면 알려주세요. 이메일 ${DATA.email}`, body, t);
+<text x="${W / 2}" y="46" class="s ink" font-size="20" font-weight="700" text-anchor="middle">반복되는 업무가 있다면 알려주세요.</text>
+<text x="${W / 2}" y="74" class="m mu" font-size="13.5" text-anchor="middle">Where Healthcare Works, I Will Expand Possibilities</text>
+<text x="${W / 2}" y="102" class="m ac" font-size="14" text-anchor="middle">${esc(DATA.email)}<tspan class="blink">_</tspan></text>
+${ecg(40, W - 40, 134, t, { period: 380, amp: 0.6 })}`;
+  return svg(W, H, `반복되는 업무가 있다면 알려주세요. Where Healthcare Works, I Will Expand Possibilities. 이메일 ${DATA.email}`, body, t);
 }
 
 // ---- 출력 ----
