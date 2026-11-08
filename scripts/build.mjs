@@ -259,9 +259,8 @@ ${pic("stack", `쓰는 도구. ${DATA.stack.map(([g, items]) => `${g}: ${items.j
 
 <br><br>
 
-<a href="mailto:${DATA.email}">${pic("footer", `반복되는 업무가 있다면 알려주세요. ${DATA.email}`)}</a>
+<a href="mailto:${DATA.email}">${pic("footer", `Where Healthcare Works, I Will Expand Possibilities ${DATA.email}`)}</a>
 
-<sub>SVG 카드로 README를 꾸미는 방식은 [aahil-khan](https://github.com/aahil-khan/aahil-khan)의 프로필에서 아이디어를 얻었습니다. 카드는 \`node scripts/build.mjs\`로 생성합니다.</sub>
 `;
 writeFileSync(join(ROOT, "README.md"), readme);
 console.log(`wrote ${Object.keys(out).length} svg + README.md`);

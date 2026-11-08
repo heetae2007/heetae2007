@@ -18,6 +18,5 @@ ezcaretech에서 클라우드 병원정보시스템(HIS)을 운영하고 개발�
 
 <br><br>
 
-<a href="mailto:heetae2007@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" /><img alt="반복되는 업무가 있다면 알려주세요. heetae2007@gmail.com" src="assets/footer-light.svg" width="100%" /></picture></a>
+<a href="mailto:heetae2007@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" /><img alt="Where Healthcare Works, I Will Expand Possibilities heetae2007@gmail.com" src="assets/footer-light.svg" width="100%" /></picture></a>
 
-<sub>SVG 카드로 README를 꾸미는 방식은 [aahil-khan](https://github.com/aahil-khan/aahil-khan)의 프로필에서 아이디어를 얻었습니다. 카드는 `node scripts/build.mjs`로 생성합니다.</sub>
