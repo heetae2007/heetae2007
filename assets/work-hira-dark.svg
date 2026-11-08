@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="132" viewBox="0 0 840 132" role="img" aria-labelledby="t">
+<title id="t">01 심평원 고시 알리미: 심평원 RSS · 요양기관 업무포털 · e-Form 공지를 5분마다 확인해 새 글만 텔레그램으로 보내는 자동화 서버. 사용 기술: Python, Playwright, SQLite, Telegram.</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'D2Coding',monospace}
+.ink{fill:#e6edf3}.mu{fill:#8b949e}.ac{fill:#3ddc97}
+@keyframes trace{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes logIn{0%{opacity:0;transform:translateY(4px)}8%,88%{opacity:1;transform:none}100%{opacity:0}}
+.trace{animation:trace 4.8s linear infinite}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="131" rx="14" fill="#0f141a" stroke="#262e39"/>
+<rect x="0.5" y="22" width="3" height="88" rx="1.5" fill="#3ddc97"/>
+<text x="28" y="50" class="m ac" font-size="22" font-weight="600">01</text>
+<text x="80" y="48" class="s ink" font-size="19" font-weight="700">심평원 고시 알리미</text>
+<g transform="translate(255 48)"></g>
+<text x="812" y="46" class="m mu" font-size="12" text-anchor="end">repo ↗</text>
+<text x="80" y="76" class="s mu" font-size="14">심평원 RSS · 요양기관 업무포털 · e-Form 공지를 5분마다 확인해</text>
+<text x="80" y="97" class="s mu" font-size="14">새 글만 텔레그램으로 보내는 자동화 서버.</text>
+<rect x="736.8" y="90" width="75.19999999999999" height="22" rx="11" fill="none" stroke="#262e39"/><text x="774.4" y="105" class="m mu" font-size="11.5" text-anchor="middle">Telegram</text>
+<rect x="669.4" y="90" width="61.4" height="22" rx="11" fill="none" stroke="#262e39"/><text x="700.1" y="105" class="m mu" font-size="11.5" text-anchor="middle">SQLite</text>
+<rect x="574.4" y="90" width="89" height="22" rx="11" fill="none" stroke="#262e39"/><text x="618.9" y="105" class="m mu" font-size="11.5" text-anchor="middle">Playwright</text>
+<rect x="507" y="90" width="61.4" height="22" rx="11" fill="none" stroke="#262e39"/><text x="537.7" y="105" class="m mu" font-size="11.5" text-anchor="middle">Python</text>
+</svg>

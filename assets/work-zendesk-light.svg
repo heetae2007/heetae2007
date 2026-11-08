@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="132" viewBox="0 0 840 132" role="img" aria-labelledby="t">
+<title id="t">03 Zendesk 자동화: 병원 Zendesk 티켓을 분류하고 반복 문의를 자동으로 태깅해, 사람이 답해야 할 티켓에 시간을 쓰도록 만드는 중. 사용 기술: Python, Zendesk API.</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'D2Coding',monospace}
+.ink{fill:#1b1d22}.mu{fill:#6b7080}.ac{fill:#0a8f6a}
+@keyframes trace{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes logIn{0%{opacity:0;transform:translateY(4px)}8%,88%{opacity:1;transform:none}100%{opacity:0}}
+.trace{animation:trace 4.8s linear infinite}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="131" rx="14" fill="#fbfaf7" stroke="#e3e0d8"/>
+<rect x="0.5" y="22" width="3" height="88" rx="1.5" fill="#0a8f6a"/>
+<text x="28" y="50" class="m ac" font-size="22" font-weight="600">03</text>
+<text x="80" y="48" class="s ink" font-size="19" font-weight="700">Zendesk 자동화</text>
+<g transform="translate(229 48)"><rect x="0" y="-15" width="58" height="20" rx="10" fill="#0a8f6a22"/><text x="29" y="-1" class="s ac" font-size="11.5" font-weight="600" text-anchor="middle">진행 중</text></g>
+<text x="812" y="46" class="m mu" font-size="12" text-anchor="end">repo ↗</text>
+<text x="80" y="76" class="s mu" font-size="14">병원 Zendesk 티켓을 분류하고 반복 문의를 자동으로 태깅해,</text>
+<text x="80" y="97" class="s mu" font-size="14">사람이 답해야 할 티켓에 시간을 쓰도록 만드는 중.</text>
+<rect x="716.1" y="90" width="95.9" height="22" rx="11" fill="none" stroke="#e3e0d8"/><text x="764.0500000000001" y="105" class="m mu" font-size="11.5" text-anchor="middle">Zendesk API</text>
+<rect x="648.7" y="90" width="61.4" height="22" rx="11" fill="none" stroke="#e3e0d8"/><text x="679.4000000000001" y="105" class="m mu" font-size="11.5" text-anchor="middle">Python</text>
+</svg>

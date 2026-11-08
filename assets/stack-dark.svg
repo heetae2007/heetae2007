@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" role="img" aria-labelledby="t">
+<title id="t">쓰는 도구. languages: Python, C#, JavaScript. frameworks: Ember.js, Google Apps Script. cloud &amp; infra: AWS, GCP, Ubuntu, cron. tools &amp; apis: Playwright, Telegram Bot API, Notion API, Zendesk API, Git.</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'D2Coding',monospace}
+.ink{fill:#e6edf3}.mu{fill:#8b949e}.ac{fill:#3ddc97}
+@keyframes trace{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes logIn{0%{opacity:0;transform:translateY(4px)}8%,88%{opacity:1;transform:none}100%{opacity:0}}
+.trace{animation:trace 4.8s linear infinite}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="219" rx="14" fill="#0f141a" stroke="#262e39"/>
+<text x="28" y="36" class="m ac" font-size="14">//</text>
+<text x="52" y="36" class="m ink" font-size="14" font-weight="600">쓰는 도구</text>
+<text x="28" y="65.5" class="m mu" font-size="12.5">languages</text><rect x="196" y="48" width="69" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="230.5" y="65.5" class="m ink" font-size="12.5" text-anchor="middle">Python</text><rect x="273" y="48" width="39" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="292.5" y="65.5" class="m ink" font-size="12.5" text-anchor="middle">C#</text><rect x="320" y="48" width="99" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="369.5" y="65.5" class="m ink" font-size="12.5" text-anchor="middle">JavaScript</text>
+<text x="28" y="105.5" class="m mu" font-size="12.5">frameworks</text><rect x="196" y="88" width="84" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="238" y="105.5" class="m ink" font-size="12.5" text-anchor="middle">Ember.js</text><rect x="288" y="88" width="159" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="367.5" y="105.5" class="m ink" font-size="12.5" text-anchor="middle">Google Apps Script</text>
+<text x="28" y="145.5" class="m mu" font-size="12.5">cloud &amp; infra</text><rect x="196" y="128" width="46.5" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="219.25" y="145.5" class="m ink" font-size="12.5" text-anchor="middle">AWS</text><rect x="250.5" y="128" width="46.5" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="273.75" y="145.5" class="m ink" font-size="12.5" text-anchor="middle">GCP</text><rect x="305" y="128" width="69" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="339.5" y="145.5" class="m ink" font-size="12.5" text-anchor="middle">Ubuntu</text><rect x="382" y="128" width="54" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="409" y="145.5" class="m ink" font-size="12.5" text-anchor="middle">cron</text>
+<text x="28" y="185.5" class="m mu" font-size="12.5">tools &amp; apis</text><rect x="196" y="168" width="99" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="245.5" y="185.5" class="m ink" font-size="12.5" text-anchor="middle">Playwright</text><rect x="303" y="168" width="144" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="375" y="185.5" class="m ink" font-size="12.5" text-anchor="middle">Telegram Bot API</text><rect x="455" y="168" width="99" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="504.5" y="185.5" class="m ink" font-size="12.5" text-anchor="middle">Notion API</text><rect x="562" y="168" width="106.5" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="615.25" y="185.5" class="m ink" font-size="12.5" text-anchor="middle">Zendesk API</text><rect x="676.5" y="168" width="46.5" height="26" rx="13" fill="#161c24" stroke="#262e39"/><text x="699.75" y="185.5" class="m ink" font-size="12.5" text-anchor="middle">Git</text>
+</svg>
