@@ -18,15 +18,23 @@ const DATA = {
     "ezcaretech에서 클라우드 병원정보시스템(HIS)을 운영하고 개발합니다. 매일 같은 화면을 반복해서 확인하는 일을 보면, 자동화로 덜어낼 방법부터 찾습니다.",
   cron: [
     ["*/5 * * * *", "hira_watch.py"],
-    ["0 9 * * 1-5", "sheet_to_notion.gs"],
-    ["*/10 * * * *", "zendesk_triage.py"],
+    ["0 9 1 * *", "edi_master_sync.js"],
+    ["* * * * *", "zendesk_auto.py"],
   ],
   log: [
-    ["09:00", "✓", "티켓 14건 → notion"],
+    ["09:00", "✓", "수가마스터 갱신 완료"],
     ["09:05", "✓", "새 고시 2건 → telegram"],
-    ["09:10", "·", "분류 대기 3건"],
+    ["09:10", "·", "검토 필요 3건"],
   ],
   work: [
+    {
+      slug: "zendesk",
+      title: "고객문의 응대 자동화 (Zendesk)",
+      wip: true,
+      lines: ["신규 Zendesk 문의를 Claude로 요약·분류해 개발/PIS 담당자를 정하고", "텔레그램으로 알려 접수까지 이어주는 자동 접수 도구."],
+      stack: ["Python", "FastAPI", "Claude", "Zendesk API"],
+      repo: "https://github.com/heetae2007/zendesk_auto",
+    },
     {
       slug: "hira",
       title: "심평원 고시 알리미",
@@ -35,26 +43,18 @@ const DATA = {
       repo: "https://github.com/heetae2007/Hira_Web_Crawler",
     },
     {
-      slug: "notion",
-      title: "시트에서 노션으로",
-      lines: ["월별 탭에 흩어진 병원 요청 티켓을 티켓번호 기준으로 모아", "노션 데이터베이스 하나로 동기화하는 Apps Script."],
-      stack: ["Apps Script", "Notion API"],
-      repo: "https://github.com/heetae2007/GoogleSheet_Notion_Appscript",
-    },
-    {
-      slug: "zendesk",
-      title: "Zendesk 자동화",
-      wip: true,
-      lines: ["병원 Zendesk 티켓을 분류하고 반복 문의를 자동으로 태깅해,", "사람이 답해야 할 티켓에 시간을 쓰도록 만드는 중."],
-      stack: ["Python", "Zendesk API"],
-      repo: "https://github.com/heetae2007/zendesk_auto",
+      slug: "edi",
+      title: "수가 속성 자동분류 (EDI코드 분류 점검)",
+      lines: ["병원 AS-IS 수가 엑셀을 심평원 수가마스터(약 300만 행)와 대조해", "분류를 점검하고, 원본 서식 그대로 엑셀로 내보내는 도구."],
+      stack: ["Node.js", "MySQL", "SheetJS"],
+      repo: "https://github.com/heetae2007/edicode_classification",
     },
   ],
   stack: [
     ["languages", ["Python", "C#", "JavaScript"]],
-    ["frameworks", ["Ember.js", "Google Apps Script"]],
+    ["frameworks", ["FastAPI", "Node.js", "Ember.js"]],
     ["cloud & infra", ["AWS", "GCP", "Ubuntu", "cron"]],
-    ["tools & apis", ["Playwright", "Telegram Bot API", "Notion API", "Zendesk API", "Git"]],
+    ["tools & apis", ["Playwright", "Telegram Bot API", "Zendesk API", "Claude API", "MySQL", "Git"]],
   ],
 };
 

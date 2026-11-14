@@ -24,12 +24,12 @@
 <circle class="pulse" cx="760" cy="56" r="3.5" fill="#3ddc97"/>
 <text x="788" y="60" class="m ac" font-size="11" text-anchor="end">live</text>
 <text x="494" y="94" class="m" font-size="12.5"><tspan class="mu">*/5 * * * *  </tspan><tspan class="ink">hira_watch.py</tspan></text>
-<text x="494" y="115" class="m" font-size="12.5"><tspan class="mu">0 9 * * 1-5  </tspan><tspan class="ink">sheet_to_notion.gs</tspan></text>
-<text x="494" y="136" class="m" font-size="12.5"><tspan class="mu">*/10 * * * * </tspan><tspan class="ink">zendesk_triage.py</tspan></text>
+<text x="494" y="115" class="m" font-size="12.5"><tspan class="mu">0 9 1 * *    </tspan><tspan class="ink">edi_master_sync.js</tspan></text>
+<text x="494" y="136" class="m" font-size="12.5"><tspan class="mu">* * * * *    </tspan><tspan class="ink">zendesk_auto.py</tspan></text>
 <line x1="494" x2="788" y1="152" y2="152" stroke="#262e39" stroke-dasharray="3 4"/>
-<g style="animation:logIn 7.5s 0s ease-out infinite"><text x="494" y="176" class="m" font-size="12.5"><tspan class="mu">09:00 </tspan><tspan class="ac">✓ </tspan><tspan class="ink">티켓 14건 → notion</tspan></text></g>
+<g style="animation:logIn 7.5s 0s ease-out infinite"><text x="494" y="176" class="m" font-size="12.5"><tspan class="mu">09:00 </tspan><tspan class="ac">✓ </tspan><tspan class="ink">수가마스터 갱신 완료</tspan></text></g>
 <g style="animation:logIn 7.5s 1.2s ease-out infinite"><text x="494" y="196" class="m" font-size="12.5"><tspan class="mu">09:05 </tspan><tspan class="ac">✓ </tspan><tspan class="ink">새 고시 2건 → telegram</tspan></text></g>
-<g style="animation:logIn 7.5s 2.4s ease-out infinite"><text x="494" y="216" class="m" font-size="12.5"><tspan class="mu">09:10 </tspan><tspan class="ac">· </tspan><tspan class="ink">분류 대기 3건</tspan></text></g>
+<g style="animation:logIn 7.5s 2.4s ease-out infinite"><text x="494" y="216" class="m" font-size="12.5"><tspan class="mu">09:10 </tspan><tspan class="ac">· </tspan><tspan class="ink">검토 필요 3건</tspan></text></g>
 <text x="494" y="236" class="m ac" font-size="12.5">$ <tspan class="blink">▍</tspan></text>
 <path d="M24 296 L94 296 q8 -9.0 16 0 L120 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L164 296 q11 -14.0 22 0 L214 296 L284 296 q8 -9.0 16 0 L310 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L354 296 q11 -14.0 22 0 L404 296 L474 296 q8 -9.0 16 0 L500 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L544 296 q11 -14.0 22 0 L594 296 L664 296 q8 -9.0 16 0 L690 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L734 296 q11 -14.0 22 0 L784 296 L816 296" fill="none" stroke="#262e39" stroke-width="1.5" stroke-linejoin="round"/>
 <path class="trace" d="M24 296 L94 296 q8 -9.0 16 0 L120 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L164 296 q11 -14.0 22 0 L214 296 L284 296 q8 -9.0 16 0 L310 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L354 296 q11 -14.0 22 0 L404 296 L474 296 q8 -9.0 16 0 L500 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L544 296 q11 -14.0 22 0 L594 296 L664 296 q8 -9.0 16 0 L690 296 l5 7.0 l8 -46.0 l8 58.0 l6 -19.0 L734 296 q11 -14.0 22 0 L784 296 L816 296" pathLength="1000" fill="none" stroke="#3ddc97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="140 860" opacity="1"/>

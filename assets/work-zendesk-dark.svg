@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="132" viewBox="0 0 840 132" role="img" aria-labelledby="t">
-<title id="t">03 Zendesk 자동화: 병원 Zendesk 티켓을 분류하고 반복 문의를 자동으로 태깅해, 사람이 답해야 할 티켓에 시간을 쓰도록 만드는 중. 사용 기술: Python, Zendesk API.</title>
+<title id="t">01 고객문의 응대 자동화 (Zendesk): 신규 Zendesk 문의를 Claude로 요약·분류해 개발/PIS 담당자를 정하고 텔레그램으로 알려 접수까지 이어주는 자동 접수 도구. 사용 기술: Python, FastAPI, Claude, Zendesk API.</title>
 <style>
 .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'D2Coding',monospace}
 .ink{fill:#e6edf3}.mu{fill:#8b949e}.ac{fill:#3ddc97}
@@ -14,12 +14,14 @@
 </style>
 <rect x="0.5" y="0.5" width="839" height="131" rx="14" fill="#0f141a" stroke="#262e39"/>
 <rect x="0.5" y="22" width="3" height="88" rx="1.5" fill="#3ddc97"/>
-<text x="28" y="50" class="m ac" font-size="22" font-weight="600">03</text>
-<text x="80" y="48" class="s ink" font-size="19" font-weight="700">Zendesk 자동화</text>
-<g transform="translate(229 48)"><rect x="0" y="-15" width="58" height="20" rx="10" fill="#3ddc9726"/><text x="29" y="-1" class="s ac" font-size="11.5" font-weight="600" text-anchor="middle">진행 중</text></g>
+<text x="28" y="50" class="m ac" font-size="22" font-weight="600">01</text>
+<text x="80" y="48" class="s ink" font-size="19" font-weight="700">고객문의 응대 자동화 (Zendesk)</text>
+<g transform="translate(376 48)"><rect x="0" y="-15" width="58" height="20" rx="10" fill="#3ddc9726"/><text x="29" y="-1" class="s ac" font-size="11.5" font-weight="600" text-anchor="middle">진행 중</text></g>
 <text x="812" y="46" class="m mu" font-size="12" text-anchor="end">repo ↗</text>
-<text x="80" y="76" class="s mu" font-size="14">병원 Zendesk 티켓을 분류하고 반복 문의를 자동으로 태깅해,</text>
-<text x="80" y="97" class="s mu" font-size="14">사람이 답해야 할 티켓에 시간을 쓰도록 만드는 중.</text>
+<text x="80" y="76" class="s mu" font-size="14">신규 Zendesk 문의를 Claude로 요약·분류해 개발/PIS 담당자를 정하고</text>
+<text x="80" y="97" class="s mu" font-size="14">텔레그램으로 알려 접수까지 이어주는 자동 접수 도구.</text>
 <rect x="716.1" y="90" width="95.9" height="22" rx="11" fill="none" stroke="#262e39"/><text x="764.0500000000001" y="105" class="m mu" font-size="11.5" text-anchor="middle">Zendesk API</text>
-<rect x="648.7" y="90" width="61.4" height="22" rx="11" fill="none" stroke="#262e39"/><text x="679.4000000000001" y="105" class="m mu" font-size="11.5" text-anchor="middle">Python</text>
+<rect x="648.7" y="90" width="61.4" height="22" rx="11" fill="none" stroke="#262e39"/><text x="679.4000000000001" y="105" class="m mu" font-size="11.5" text-anchor="middle">Claude</text>
+<rect x="574.4000000000001" y="90" width="68.3" height="22" rx="11" fill="none" stroke="#262e39"/><text x="608.5500000000001" y="105" class="m mu" font-size="11.5" text-anchor="middle">FastAPI</text>
+<rect x="507.0000000000001" y="90" width="61.4" height="22" rx="11" fill="none" stroke="#262e39"/><text x="537.7000000000002" y="105" class="m mu" font-size="11.5" text-anchor="middle">Python</text>
 </svg>
