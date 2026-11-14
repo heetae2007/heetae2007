@@ -1,5 +1,6 @@
 // README용 SVG 카드를 라이트/다크 두 벌로 만들고 README.md까지 생성합니다.
 // 내용을 고치려면 아래 DATA만 수정한 뒤 `node scripts/build.mjs`를 실행하세요.
+import { createHash } from "node:crypto";
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -238,8 +239,10 @@ for (const [key, b] of Object.entries(btns))
 
 for (const [name, content] of Object.entries(out)) writeFileSync(join(ROOT, "assets", `${name}.svg`), content);
 
+// GitHub은 README 이미지를 캐시하므로, 내용이 바뀌면 주소도 바뀌도록 해시를 붙입니다.
+const src = (file) => `assets/${file}.svg?v=${createHash("sha1").update(out[file]).digest("hex").slice(0, 8)}`;
 const pic = (name, alt, width = "100%") =>
-  `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-dark.svg" /><img alt="${esc(alt)}" src="assets/${name}-light.svg" width="${width}" /></picture>`;
+  `<picture><source media="(prefers-color-scheme: dark)" srcset="${src(`${name}-dark`)}" /><img alt="${esc(alt)}" src="${src(`${name}-light`)}" width="${width}" /></picture>`;
 
 const readme = `${pic("hero", `${DATA.name} ${DATA.englishName}. ${DATA.title}. ${DATA.tagline.join(" ")}`)}
 
