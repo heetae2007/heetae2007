@@ -9,8 +9,8 @@ ezcaretech에서 클라우드 병원정보시스템(HIS)을 운영하고 개발�
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-head-dark.svg" /><img alt="만든 것" src="assets/work-head-light.svg" width="100%" /></picture>
 <a href="https://github.com/heetae2007/zendesk_auto"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-zendesk-dark.svg" /><img alt="01 고객문의 응대 자동화 (Zendesk): 신규 Zendesk 문의를 Claude로 요약·분류해 개발/PIS 담당자를 정하고 텔레그램으로 알려 접수까지 이어주는 자동 접수 도구." src="assets/work-zendesk-light.svg" width="100%" /></picture></a>
-<a href="https://github.com/heetae2007/Hira_Web_Crawler"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-hira-dark.svg" /><img alt="02 심평원 고시 알리미: 심평원 RSS · 요양기관 업무포털 · e-Form 공지를 5분마다 확인해 새 글만 텔레그램으로 보내는 자동화 서버." src="assets/work-hira-light.svg" width="100%" /></picture></a>
-<a href="https://github.com/heetae2007/edicode_classification"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-edi-dark.svg" /><img alt="03 수가 속성 자동분류 (EDI코드 분류 점검): 병원 AS-IS 수가 엑셀을 심평원 수가마스터(약 300만 행)와 대조해 분류를 점검하고, 원본 서식 그대로 엑셀로 내보내는 도구." src="assets/work-edi-light.svg" width="100%" /></picture></a>
+<a href="https://github.com/heetae2007/edicode_classification"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-edi-dark.svg" /><img alt="02 수가 속성 자동분류 (EDI코드 분류 점검): 병원 AS-IS 수가 엑셀을 심평원 수가마스터(약 300만 행)와 대조해 분류를 점검하고, 원본 서식 그대로 엑셀로 내보내는 도구." src="assets/work-edi-light.svg" width="100%" /></picture></a>
+<a href="https://github.com/heetae2007/Hira_Web_Crawler"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-hira-dark.svg" /><img alt="03 심평원 고시 알리미: 심평원 RSS · 요양기관 업무포털 · e-Form 공지를 5분마다 확인해 새 글만 텔레그램으로 보내는 자동화 서버." src="assets/work-hira-light.svg" width="100%" /></picture></a>
 
 <br>
 

@@ -17,9 +17,9 @@ const DATA = {
   intro:
     "ezcaretech에서 클라우드 병원정보시스템(HIS)을 운영하고 개발합니다. 매일 같은 화면을 반복해서 확인하는 일을 보면, 자동화로 덜어낼 방법부터 찾습니다.",
   cron: [
-    ["*/5 * * * *", "hira_watch.py"],
-    ["0 9 1 * *", "edi_master_sync.js"],
     ["* * * * *", "zendesk_auto.py"],
+    ["0 9 1 * *", "edi_master_sync.js"],
+    ["*/5 * * * *", "hira_watch.py"],
   ],
   log: [
     ["09:00", "✓", "수가마스터 갱신 완료"],
@@ -30,17 +30,9 @@ const DATA = {
     {
       slug: "zendesk",
       title: "고객문의 응대 자동화 (Zendesk)",
-      wip: true,
       lines: ["신규 Zendesk 문의를 Claude로 요약·분류해 개발/PIS 담당자를 정하고", "텔레그램으로 알려 접수까지 이어주는 자동 접수 도구."],
       stack: ["Python", "FastAPI", "Claude", "Zendesk API"],
       repo: "https://github.com/heetae2007/zendesk_auto",
-    },
-    {
-      slug: "hira",
-      title: "심평원 고시 알리미",
-      lines: ["심평원 RSS · 요양기관 업무포털 · e-Form 공지를 5분마다 확인해", "새 글만 텔레그램으로 보내는 자동화 서버."],
-      stack: ["Python", "Playwright", "SQLite", "Telegram"],
-      repo: "https://github.com/heetae2007/Hira_Web_Crawler",
     },
     {
       slug: "edi",
@@ -48,6 +40,13 @@ const DATA = {
       lines: ["병원 AS-IS 수가 엑셀을 심평원 수가마스터(약 300만 행)와 대조해", "분류를 점검하고, 원본 서식 그대로 엑셀로 내보내는 도구."],
       stack: ["Node.js", "MySQL", "SheetJS"],
       repo: "https://github.com/heetae2007/edicode_classification",
+    },
+    {
+      slug: "hira",
+      title: "심평원 고시 알리미",
+      lines: ["심평원 RSS · 요양기관 업무포털 · e-Form 공지를 5분마다 확인해", "새 글만 텔레그램으로 보내는 자동화 서버."],
+      stack: ["Python", "Playwright", "SQLite", "Telegram"],
+      repo: "https://github.com/heetae2007/Hira_Web_Crawler",
     },
   ],
   stack: [

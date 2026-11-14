@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="132" viewBox="0 0 840 132" role="img" aria-labelledby="t">
-<title id="t">03 수가 속성 자동분류 (EDI코드 분류 점검): 병원 AS-IS 수가 엑셀을 심평원 수가마스터(약 300만 행)와 대조해 분류를 점검하고, 원본 서식 그대로 엑셀로 내보내는 도구. 사용 기술: Node.js, MySQL, SheetJS.</title>
+<title id="t">02 수가 속성 자동분류 (EDI코드 분류 점검): 병원 AS-IS 수가 엑셀을 심평원 수가마스터(약 300만 행)와 대조해 분류를 점검하고, 원본 서식 그대로 엑셀로 내보내는 도구. 사용 기술: Node.js, MySQL, SheetJS.</title>
 <style>
 .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'D2Coding',monospace}
 .ink{fill:#1b1d22}.mu{fill:#6b7080}.ac{fill:#0a8f6a}
@@ -14,7 +14,7 @@
 </style>
 <rect x="0.5" y="0.5" width="839" height="131" rx="14" fill="#fbfaf7" stroke="#e3e0d8"/>
 <rect x="0.5" y="22" width="3" height="88" rx="1.5" fill="#0a8f6a"/>
-<text x="28" y="50" class="m ac" font-size="22" font-weight="600">03</text>
+<text x="28" y="50" class="m ac" font-size="22" font-weight="600">02</text>
 <text x="80" y="48" class="s ink" font-size="19" font-weight="700">수가 속성 자동분류 (EDI코드 분류 점검)</text>
 <g transform="translate(440 48)"></g>
 <text x="812" y="46" class="m mu" font-size="12" text-anchor="end">repo ↗</text>

@@ -23,9 +23,9 @@
 <text x="494" y="60" class="m mu" font-size="12">$ crontab -l</text>
 <circle class="pulse" cx="760" cy="56" r="3.5" fill="#0a8f6a"/>
 <text x="788" y="60" class="m ac" font-size="11" text-anchor="end">live</text>
-<text x="494" y="94" class="m" font-size="12.5"><tspan class="mu">*/5 * * * *  </tspan><tspan class="ink">hira_watch.py</tspan></text>
+<text x="494" y="94" class="m" font-size="12.5"><tspan class="mu">* * * * *    </tspan><tspan class="ink">zendesk_auto.py</tspan></text>
 <text x="494" y="115" class="m" font-size="12.5"><tspan class="mu">0 9 1 * *    </tspan><tspan class="ink">edi_master_sync.js</tspan></text>
-<text x="494" y="136" class="m" font-size="12.5"><tspan class="mu">* * * * *    </tspan><tspan class="ink">zendesk_auto.py</tspan></text>
+<text x="494" y="136" class="m" font-size="12.5"><tspan class="mu">*/5 * * * *  </tspan><tspan class="ink">hira_watch.py</tspan></text>
 <line x1="494" x2="788" y1="152" y2="152" stroke="#e3e0d8" stroke-dasharray="3 4"/>
 <g style="animation:logIn 7.5s 0s ease-out infinite"><text x="494" y="176" class="m" font-size="12.5"><tspan class="mu">09:00 </tspan><tspan class="ac">✓ </tspan><tspan class="ink">수가마스터 갱신 완료</tspan></text></g>
 <g style="animation:logIn 7.5s 1.2s ease-out infinite"><text x="494" y="196" class="m" font-size="12.5"><tspan class="mu">09:05 </tspan><tspan class="ac">✓ </tspan><tspan class="ink">새 고시 2건 → telegram</tspan></text></g>
